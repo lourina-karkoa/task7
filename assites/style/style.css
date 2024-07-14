@@ -1,0 +1,254 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+}
+.task1-h1{
+    width: 85%;
+    height:80px;
+  display: flex;
+  justify-content: center;
+  align-items: start;
+flex-direction: column;
+ margin-top: 30px;
+ 
+}
+.task1-h1 span{
+    width: 300px;
+    padding-bottom: 10px;
+    border-bottom:2px dashed black ;
+    /* color: aqua; */
+}
+.task1{
+    width: 100%;
+    display: flex;
+    justify-content: start !important;
+    flex-direction: column;
+    align-items: center;
+}
+.task1 h1{
+    text-align: start;
+}
+.Box {
+    width: 85%;
+    background-color: #c82624;
+    color: white;
+    padding-top: 50px;
+}
+.father1{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    gap: 150px;
+}
+.father1 .son1{
+    display: flex;
+    justify-content: center;
+    align-items: start;
+    flex-direction: column;
+    gap: 15px;
+    /* margin-left: 40px; */
+    width: 45%;
+
+}
+.father1 .son1 p{
+    line-height: 22px;
+}
+.father1 .son2 .img1-father1{
+    width: 250px;
+}
+.father2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 40px;
+    margin-top: 20px;
+    
+    
+}
+.father2 .img1-father2 ,.father2 .img2-father2{
+    width: 70px;
+}
+.father2 .img3-father2{
+    width: 74px;
+}
+.father2 .img4-father2 ,.father2 .img5-father2{
+    width: 66px;
+}
+.border-buttom{
+    width: 92%;
+    display: flex;
+    align-items: end;
+    justify-content: end;
+    border-bottom:4px solid rgba(0, 0, 0, 0.2) ;
+    padding-bottom: 50px;
+    margin-left: 7%;
+}
+
+/* task 2 */
+.task2-h1{
+    width: 85%;
+    height:80px;
+  display: flex;
+  justify-content: center;
+  align-items: start;
+flex-direction: column;
+ margin-top: 30px;
+ 
+}
+.task2-h1 span{
+    width: 300px;
+    padding-bottom: 10px;
+    border-bottom:2px dashed black ;
+    /* color: aqua; */
+}
+.task2{
+    width: 100%;
+    display: flex;
+    justify-content: start !important;
+    flex-direction: column;
+    align-items: center;
+}
+.task2-son1{
+    width: 85%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 25px;
+    border:4px solid #9d9d9d ;
+    border-bottom: 6px solid #d1d1d1;
+
+}
+.task2-head{
+    font-size: 50px;
+}
+.task2-p{
+    width: 70%;
+    font-size: 20px;
+    line-height: 25px;
+    text-align: center;
+}
+.task2-icon{
+    width: 95%;
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    gap: 10px;
+}
+.task2-icon i:nth-child(1){
+    color: black;
+     z-index: 2;
+     font-size: 55px;
+     margin-top: 30px;
+}
+.task2-icon i:nth-child(2){
+    color: white;
+     font-size: 55px;
+     margin-top: 30px;
+}
+
+.task2-par{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 25px;
+    padding: 60px 0 120px 0;
+
+}
+.newClass{
+    background: black;
+    color: white;
+    width: 85%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 25px;
+    border:4px solid #9d9d9d ;
+    border-bottom: 6px solid #d1d1d1;
+}
+
+
+
+/* task 3 */
+.task3-father{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.task3-son{
+    width: 85%;
+    display: flex;
+    justify-content: center;
+    align-items: start;
+    flex-direction: column;
+    gap: 20px;
+}
+.task3-div1{
+    width:70% ;
+    height: 70px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #def4cd;
+}
+.task3-par{
+    padding-left: 20px;
+}
+.ocordione1 , .ocordione2 ,.ocordione3{
+    margin-right: 20px;
+    transition: 0.5s;
+   cursor: pointer;
+}
+.task2-list1 p , .task2-list2 p , .task2-list3 p  {
+    width: 70%;
+    visibility: hidden;
+    height: 0;
+    background-color: white;
+    transition: 0.5s;
+}
+.task3-list{
+    width: 70%;
+    visibility:visible;
+    height: 100px;
+    line-height: 25px;
+    padding-top: 10px;
+    background-color: rgb(214, 179, 179);
+    transition: 0.5s;
+    margin-top: -20px;
+    margin-bottom: 20px;
+}
+
+/* task4 */
+.task4{
+    width: 85%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 20px;
+    background-color: #023852;
+    height: 370px;
+    border-radius: 10px;
+}
+.task4-head{
+    font-size: 30px;
+    margin-top: 50px;
+    color: white;
+}
+.star1 ,.star2, .star3 , .star4 , .star5{
+    font-size: 30px;
+}
+.task4-head2{
+    font-size: 20px;
+    color: white;
+}
+.star{
+    color: yellow;
+    font-size: 32px;
+}
+
